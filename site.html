@@ -1,0 +1,195 @@
+<html>
+	<head>
+		<style type="text/css">
+			body
+			{
+				background-color: rgb(255, 0, 0);
+				font-size:30px;
+				text-align:center;
+				
+			}
+			
+			#anadiv
+			{
+				width: 800px;;
+				margin:0 auto;
+				background:rgb(0, 255, 136);
+				border: 5px solid;
+			}
+			
+			#ust
+			{
+				background-image: url(banner1.jpg);
+				width: 790px;
+				height:150px;
+				border: 2px solid;
+				margin-bottom:10px;
+			}
+			
+			#sol
+			{   
+				width: 790px;
+				float:left;
+				height:500px;
+				border:2px solid;
+				margin-right:10px;
+				background-color: darkorange;
+				
+			}
+			
+			
+			
+			.alt{
+				
+				border:2px solid black;
+				margin-top:10px;
+				height:50px;
+				background-color: darkorange;
+			}
+			
+			.sil{
+				clear:both;
+			}
+			ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #4fb99f;
+    overflow:auto;
+}
+ 
+ul li {
+    float:left;
+    border-bottom:3px solid #4fb99f;
+	margin-top: 0px;
+}
+ 
+
+ 
+ul li a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+ 
+ul li.active {
+    background-color: #068587;
+    border-bottom:3px solid #f2b134;
+}
+ 
+ul li:hover:not(.active) {
+    background-color: #068587;
+    border-bottom:3px solid #f2b134;
+}
+img{
+	width: 780px;
+	height: 500px;
+	text-align: center;
+}
+ 
+
+		</style>
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="js/slider-min.js" type="text/javascript">
+		</script>
+	</head>
+	<body>
+		<div id="anadiv">
+			<div id="ust"></div>
+			<nav class="menu">
+                <ul>
+					<li class="active">
+						<a href="#">Anasayfa</a>
+					</li>
+					<li>
+						<a href="Padişahlar.html">Padişahlar</a>
+					</li>
+					<li>
+						<a href="savaşlar.html">Savaşlar</a>
+					</li>
+					<li >
+						<a href="https://tr.wikipedia.org/wiki/Osmanl%C4%B1_ordusu">Ordu Düzeni</a>
+					</li>
+					
+					<li >
+						<a href="siyasi.html">Siyasi </a>
+					</li>
+					<li >
+						<a href="https://tr.wikipedia.org/wiki/Vikipedi">Kaynak</a>
+					</li>
+					
+					<li >
+						<a href="isyanlar.html">İsyanlar</a>
+					</li>
+					
+					
+				</ul>
+				 
+					
+            </nav>
+			    <div id="Sol">
+					<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+
+
+
+<div class="w3-content w3-display-container" style="max: width 780px;">
+  <img class="mySlides" src="resim.jpg" style="width:100%">
+  <img class="mySlides" src="resim1.jpg" style="width:100%">
+  <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+
+          
+
+				</div>
+			    
+			
+
+			<div class="sil"></div>
+			<div class="alt">Tüm Hakları Saklıdır</div>
+			
+		</div>
+	</body>
+</html>
